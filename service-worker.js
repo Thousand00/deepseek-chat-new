@@ -2,7 +2,6 @@ const CACHE_NAME = 'deepseek-chat-v1';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './deepseek_html_20260525_240eb9.html',
   './manifest.json',
   './icon-512.png',
   './icon-192.png'
@@ -65,7 +64,7 @@ self.addEventListener('fetch', (event) => {
           })
           .catch(() => {
             if (event.request.mode === 'navigate') {
-              return caches.match('./deepseek_html_20260525_240eb9.html');
+              return caches.match('./index.html');
             }
             return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
           });

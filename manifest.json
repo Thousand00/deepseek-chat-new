@@ -2,7 +2,7 @@
   "name": "DeepSeek Chat",
   "short_name": "DeepSeek",
   "description": "DeepSeek AI 智能体聊天平台 - 本地存储版",
-  "start_url": "/deepseek_html_20260525_240eb9.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#09090b",
